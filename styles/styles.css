@@ -167,3 +167,161 @@ main {
 .news-image {
   margin: 12px 0px;
 }
+
+/* ============ Section 05 (Donate Today) ============ */
+
+.donation .title {
+  text-align: center;
+}
+
+.donation .description {
+  text-align: center;
+}
+
+.amount-box1,
+.amount-box3,
+.amount-box4 {
+  width: 240px;
+  height: 128px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 5px;
+
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amount-box2 {
+  width: 240px;
+  height: 128px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  padding: 5px;
+
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amount-box {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-around;
+}
+
+form input[type="text"] {
+  margin-top: 32px;
+  width: 1032px;
+  height: 64px;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-donate {
+  margin-top: 30px;
+  display: flex;
+  justify-self: center;
+}
+
+/* ============ Section 06 (Subscribe Newsletter) ============ */
+#newsletter {
+  margin-top: 80px;
+  padding: 80px 100px 80px 100px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+
+#newsletter .title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#newsletter .description {
+  text-align: center;
+}
+
+#newsletter form input[type="email"] {
+  margin-top: 32px;
+  width: 600px;
+  height: 55px;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.email-container button {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(0, 106, 80, 1);
+  padding: 17px 34px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  display: flex;
+  justify-self: center;
+}
+
+.email-container {
+  display: flex;
+  justify-content: center;
+}
+
+#newsletter .description {
+  margin-top: 24px;
+}
+
+/* ============ Section 07 (Footer) ============ */
+
+footer {
+  background: rgb(255, 255, 255);
+}
+
+.footer-content {
+  width: 1122px;
+  text-align: center;
+  margin: 0 auto;
+  border: 50px solid white;
+}
+
+.footer-icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-content hr {
+  margin: 30px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+}
